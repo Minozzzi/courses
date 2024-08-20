@@ -34,20 +34,17 @@ export const ListCourses: React.FC = () => {
                 <h4 className="text-xl font-semibold">Módulos</h4>
                 <Accordion type="multiple">
                   {course.modules.map((module) => (
-                    <AccordionItem key={module.id} value={String(module.id)}>
+                    <AccordionItem key={module.id} value={module.id}>
                       <AccordionTrigger className="text-start text-lg">
                         <div className="flex flex-col gap-1">
                           <span>{module.title}</span>
-                          <span>{module.description}</span>
+                          <span className="text-sm">{module.description}</span>
                         </div>
                       </AccordionTrigger>
                       <AccordionContent>
                         <Accordion type="multiple">
                           {module.lessons.map((lesson) => (
-                            <AccordionItem
-                              key={lesson.id}
-                              value={String(lesson.id)}
-                            >
+                            <AccordionItem key={lesson.id} value={lesson.id}>
                               <AccordionTrigger className="text-start text-sm">
                                 <div className="flex flex-col gap-1">
                                   <span>{lesson.title}</span>

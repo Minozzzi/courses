@@ -1,6 +1,6 @@
 import { getAll } from ".";
 import { httpClient } from "@/app/services/httpClient";
-import { Course } from "@/app/entities/Course";
+import { Course } from "@/app/entities/course";
 import { vi } from "vitest";
 
 vi.mock("@/app/services/httpClient");
