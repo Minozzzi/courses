@@ -3,61 +3,62 @@
     {
       "id": 1,
       "title": "Curso de ReactJS",
-      "description": "Aprenda os fundamentos do ReactJS.",
-      "modules": [
-        {
-          "id": 1,
-          "title": "Introdução ao React",
-          "description": "Conceitos básicos e configuração do ambiente.",
-          "lessons": [
-            {
-              "id": 1,
-              "title": "O que é React?",
-              "description": "Uma introdução ao ReactJS.",
-              "content": "React é uma biblioteca JavaScript para construção de interfaces de usuário..."
-            },
-            {
-              "id": 2,
-              "title": "Criando um Projeto React",
-              "description": "Configurando o ambiente e criando um projeto com Create React App.",
-              "content": "Para criar um novo projeto React, utilize o comando npx create-react-app..."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "title": "Componentes React",
-          "description": "Aprenda a criar e utilizar componentes em React.",
-          "lessons": [
-            {
-              "id": 3,
-              "title": "Componentes Funcionais",
-              "description": "Introdução aos componentes funcionais no React.",
-              "content": "Componentes funcionais são uma forma simples de criar componentes em React..."
-            }
-          ]
-        }
-      ]
+      "description": "Aprenda os fundamentos do ReactJS."
     },
     {
       "id": 2,
       "title": "Curso de Redux",
-      "description": "Gerenciamento de estado com Redux.",
-      "modules": [
-        {
-          "id": 3,
-          "title": "Fundamentos do Redux",
-          "description": "Entendendo o fluxo de dados no Redux.",
-          "lessons": [
-            {
-              "id": 4,
-              "title": "O que é Redux?",
-              "description": "Uma introdução ao Redux.",
-              "content": "Redux é uma biblioteca de gerenciamento de estado previsível para aplicações JavaScript..."
-            }
-          ]
-        }
-      ]
+      "description": "Gerenciamento de estado com Redux."
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introdução ao React",
+      "description": "Conceitos básicos e configuração do ambiente.",
+      "courseId": 1
+    },
+    {
+      "id": 2,
+      "title": "Componentes React",
+      "description": "Aprenda a criar e utilizar componentes em React.",
+      "courseId": 1
+    },
+    {
+      "id": 3,
+      "title": "Fundamentos do Redux",
+      "description": "Entendendo o fluxo de dados no Redux.",
+      "courseId": 2
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "O que é React?",
+      "description": "Uma introdução ao ReactJS.",
+      "content": "React é uma biblioteca JavaScript para construção de interfaces de usuário...",
+      "moduleId": 1
+    },
+    {
+      "id": 2,
+      "title": "Criando um Projeto React",
+      "description": "Configurando o ambiente e criando um projeto com Create React App.",
+      "content": "Para criar um novo projeto React, utilize o comando npx create-react-app...",
+      "moduleId": 1
+    },
+    {
+      "id": 3,
+      "title": "Componentes Funcionais",
+      "description": "Introdução aos componentes funcionais no React.",
+      "content": "Componentes funcionais são uma forma simples de criar componentes em React...",
+      "moduleId": 2
+    },
+    {
+      "id": 4,
+      "title": "O que é Redux?",
+      "description": "Uma introdução ao Redux.",
+      "content": "Redux é uma biblioteca de gerenciamento de estado previsível para aplicações JavaScript...",
+      "moduleId": 3
     }
   ]
 }
